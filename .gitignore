@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files
+ml-20m/
+SECTION2_DomainRecommender/data/raw/*.csv
+SECTION2_DomainRecommender/data/processed/*.csv
+SECTION2_DomainRecommender/data/processed/*.json
+
+# Keep structure but ignore large files
+!SECTION2_DomainRecommender/data/processed/.gitkeep
+!SECTION2_DomainRecommender/data/raw/.gitkeep
+
+# Results - keep stats but exclude large outputs
+SECTION2_DomainRecommender/results/figures/*.png
+
+# Temporary files
+*.log
+*.tmp
+/tmp/
+.pytest_cache/
