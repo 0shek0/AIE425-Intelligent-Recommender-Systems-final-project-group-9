@@ -32,9 +32,14 @@ SECTION2_DomainRecommender/data/processed/*.json
 
 # Results - keep stats but exclude large outputs
 SECTION2_DomainRecommender/results/figures/*.png
+SECTION1_DimensionalityReduction/results/tables/cov_mle.csv
 
 # Temporary files
 *.log
 *.tmp
 /tmp/
 .pytest_cache/
+
+# Large documents
+*.docx
+~$*.docx
