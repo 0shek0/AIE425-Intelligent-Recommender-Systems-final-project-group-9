@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python packaging
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+
+# Results, outputs
+results/
+results/**
+
+# Ignore secrets file
+.env
+
+# Node
+node_modules/
+
+# Optional: ignore dataset files if you don't want to push large data
+dataset/
+dataset/**
