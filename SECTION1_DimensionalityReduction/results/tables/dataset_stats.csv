@@ -1,2 +1,0 @@
-num_ratings,num_users,num_items,density,sparsity,rating_min,rating_max,rating_mean
-19984024,138493,18345,0.007865700457998398,0.9921342995420016,0.5,5.0,3.525949278283493
